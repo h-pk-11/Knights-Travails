@@ -59,7 +59,7 @@ const knightMoves = (src, dist) => {
   return { steps: -1, map: ["unfound"] };
 };
 
-const result = knightMoves([0, 0], [-1, 7]);
+const result = knightMoves([1, 2], [1, 1]);
 console.log(`Knight travels in ${result.steps} steps`);
 console.log(
   `Path: ${result.map.map((item) => {
